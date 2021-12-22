@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascômetro</title>
+    <link rel="icon" href="../image/1208364.png" />
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+  <script src="script.js"></script>
+
+
+  <div>  
+
+    <div id="tela"> 
+
+      
+
+        <h2 class="op" id="title"> São para quantas pessoas? </h2> 
+
+        <img class="img1" src="../image/crianca.png"> <input class="op" id="a1" type="number" placeholder= "crianças" name="crianças">
+        <img class="img1" src="../image/adultos.png"> <input class="op" id="a2" type="number" placeholder="adultos" name="adultos" >
+        <input class="op" id="a3" type="number" placeholder="idosos" name="idosos" value="idosos"> 
+        <input class="op" type="number" placeholder="Quantas horas vai durar?">
+
+
+        <input class="op" id="calcular" type="submit" onclick="hrs()">
+            
+    </div>
+
+        <div id="resultado" class="esconder"> 
+
+          <div class="container_img">
+            <img class="imagem_carne" src="./image/carne.png">
+            <h2 class="fim" id="resultado_carne"></h2>
+          </div>
+    
+          <div class="container_img">
+              <img class="imagem_carne" src="./image/cerveja.png" aling>
+              <h2 class="fim" id="resultado_cerveja"></h2>
+          </div>
+    
+          <div class="container_img">
+              <img class="imagem_carne" src="./image/coca.png">          
+              <h2 class="fim" id="resultado_refri"></h2>
+          </div>
+            
+        </div>
+
+  </div>
+  
+</body>
+
+</html>
