@@ -5,6 +5,8 @@
 
 <h2>Tecnologias</h2>
 
-HTML 
-CSS 
-JAVASCRIPT, como treinamento 
+<ul>
+<li>HTML</li>
+<li>CSS</li> 
+<li>JAVASCRIPT</li>  
+</ul>
