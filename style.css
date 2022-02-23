@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(../image/istockphoto-876700382-1024x1024.jpg);
+    background-image: url(./image/istockphoto-876700382-1024x1024.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -36,27 +36,38 @@ body {
     
 }
 
-#a1 {
+#crianca {
     background-image: url(../image/crianca.png);
     background-repeat: no-repeat;
     background-size: 10%;
     background-position: right;
 }
 
-#a2 {
+#adultos {
     background-image: url(./image/homem.png);
     background-repeat: no-repeat;
     background-size: 10%;
     background-position: right;
 }
 
-#a3 {
+#idosos {
     background-image: url(./image/idosos.png);
     background-repeat: no-repeat;
     background-size: 10%;
     background-position: right;
 }
 
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+   outline: 0;
+
+}
+/* tirar setas do input e a "sombra" quando clicado */
 .img1 {
     width: 40px ;
     margin-top: 10px;
