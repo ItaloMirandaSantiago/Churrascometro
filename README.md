@@ -1,5 +1,7 @@
 # Churrascometro
 
+Fiz por recomendação do professor do meu curso. O projeto tem como intuito calcular a quantidade de igredientes necessários para fazer um churrasco.
+
 <h1> Link do projeto <a href="https://italomirandasantiago.github.io/Churrascometro/">aqui</a></h1>
 
 
