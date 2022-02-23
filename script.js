@@ -12,41 +12,41 @@ function resposta() {
     alert('prencha todas as colunas')
   }
 }
+// o resultado das informações do menu
+
+function mat_carne(criancas, adultos, idosos, horas) {
+
+  let resultado = 400 * adultos + 400 * idosos + (400/2 * criancas)
+  console.log(resultado)
 
 
-  function mat_carne(criancas, adultos, idosos, horas) {
-   let soma = criancas + adultos + idosos
-   let multiplicar = soma * horas
-   let re = multiplicar /3
+  let h2 = document.getElementById("resultado_carne")
 
-    let h2 = document.getElementById("resultado_carne")
-
-    h2.innerText = "Você precisará de " + Math.ceil(re) + " Kg de carne"
+  h2.innerText = "Você precisará de " + Math.ceil(resultado)  + " g de carne"
     
   mat_cerveja(criancas, adultos, idosos, horas)
-
 }
+// calcular a quantidade de carne
 
 function mat_cerveja(criancas, adultos, idosos, horas) {
-  let ra = criancas + adultos + idosos 
-  let rb = ra * horas
-  let re = rb /2
+
+  let resultado = (4 * adultos + 2 * idosos) * horas
 
 
   let h2 = document.getElementById("resultado_cerveja")
-  h2.innerText = "Você precisará de " + Math.ceil(re) + " latas de cerveja"
+  h2.innerText = "Você precisará de " + Math.ceil(resultado) + " Latas de cerveja"
 
 
-  mat_refri(criancas, adultos, idosos, horas)
+  mat_refri(criancas, idosos, horas)
 }
+// calcular a quantidade de cerveja
 
-function mat_refri (criancas, adultos, idosos, horas){
-  let ra = criancas + adultos + idosos 
-  let rb = ra * horas
-  let re = rb /2
+function mat_refri (criancas, idosos, horas){
+  let resultado = (5 * criancas + 2 * idosos) * horas
 
   let h2 = document.getElementById("resultado_refri")
-  h2.innerText = "Você precisará de " + Math.ceil(re) + " latinhas de refrigerante"
+  h2.innerText = "Você precisará de " + Math.ceil(resultado) + " latinhas de refrigerante"
 
   document.getElementById('resultado').classList.remove('esconder')
+  document.getElementById('resultado').classList.add('grid')
 }

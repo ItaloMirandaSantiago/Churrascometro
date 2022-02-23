@@ -7,6 +7,7 @@ body {
     background-image: url(./image/istockphoto-876700382-1024x1024.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -88,6 +89,12 @@ input[type=number] {
     display: none;
 }
 
+.grid{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
 #resultado {
     width: 400px;
     height: 200px;
@@ -95,7 +102,7 @@ input[type=number] {
     margin: auto;
     background-color: rgb(131, 112, 106);
 }
-
+/* a grid e deixar invisivel o resultado final */
 .imagem_carne{
     float: left;
     width: 30px;
