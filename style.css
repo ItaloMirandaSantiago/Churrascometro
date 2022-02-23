@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url(../image/istockphoto-876700382-1024x1024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#tela{ 
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(102, 87, 50);
+}
+
+#title {
+    display: block;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.op{
+    display: inline-block;
+    margin: auto;
+    margin: 10px;
+    margin-top: 12px;
+    padding: 10px;
+    border-style: none;
+    
+}
+
+#a1 {
+    background-image: url(../image/crianca.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: right;
+}
+
+#a2 {
+    background-image: url(./image/homem.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: right;
+}
+
+#a3 {
+    background-image: url(./image/idosos.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: right;
+}
+
+.img1 {
+    width: 40px ;
+    margin-top: 10px;
+}
+
+#calcular { 
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    background-color: chocolate;
+}
+
+#calcular:hover {
+    background-color: orangered;
+} 
+
+.esconder {
+    display: none;
+}
+
+#resultado {
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(131, 112, 106);
+}
+
+.imagem_carne{
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+
+.container_img{
+    margin-bottom: 30px;
+}
+
+#resultado h2 {
+    margin: 0;
+    padding: 0;
+}
